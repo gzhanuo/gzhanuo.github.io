@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>测试</title>
-      <link href="/2019/03/25/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2019/03/25/%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p>测试</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[测试]]></title>
+    <url>%2F2019%2F03%2F25%2F%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[测试]]></content>
+  </entry>
 </search>
