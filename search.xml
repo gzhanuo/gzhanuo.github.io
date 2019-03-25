@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F02%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>你好</tag>
-        <tag>再见</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>测试</title>
+      <link href="/2019/03/25/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2019/03/25/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>测试</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
