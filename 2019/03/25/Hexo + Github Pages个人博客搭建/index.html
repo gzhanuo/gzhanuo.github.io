@@ -2,22 +2,38 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>Almost</title>
+<title>Hexo + Github Pages个人博客搭建 - Almost</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Almost">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="一直有记录的习惯，现有资料收集或者是个人见解的表达。最初的时候会放在印象笔记，有道云笔记一类的软件中，手头仅有手机的时候书写就显得很不方便。有时候写了存在电脑硬盘，但不利于查阅，时间一久也不记得自己写过什么东西，中途电脑故障，换了台设备，剩下的就寥寥无几了。 市面上的博客很多，CSDN，博客园，简书等等，可以直接在线编辑发布，文章也可以被百度抓取。但往往不太自由，会受到平台的各种限制，过多的广告也">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo + Github Pages个人博客搭建">
+<meta property="og:url" content="http://yoursite.com/2019/03/25/Hexo + Github Pages个人博客搭建/index.html">
 <meta property="og:site_name" content="Almost">
+<meta property="og:description" content="一直有记录的习惯，现有资料收集或者是个人见解的表达。最初的时候会放在印象笔记，有道云笔记一类的软件中，手头仅有手机的时候书写就显得很不方便。有时候写了存在电脑硬盘，但不利于查阅，时间一久也不记得自己写过什么东西，中途电脑故障，换了台设备，剩下的就寥寥无几了。 市面上的博客很多，CSDN，博客园，简书等等，可以直接在线编辑发布，文章也可以被百度抓取。但往往不太自由，会受到平台的各种限制，过多的广告也">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/hexo.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/git.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/nodejs.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/init.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/新建仓库.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/SSH.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/新建SSH%20Key.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/填写SSH%20Key.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/repo.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/成功部署.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/init.png">
+<meta property="og:updated_time" content="2019-03-26T16:00:22.519Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Almost">
+<meta name="twitter:title" content="Hexo + Github Pages个人博客搭建">
+<meta name="twitter:description" content="一直有记录的习惯，现有资料收集或者是个人见解的表达。最初的时候会放在印象笔记，有道云笔记一类的软件中，手头仅有手机的时候书写就显得很不方便。有时候写了存在电脑硬盘，但不利于查阅，时间一久也不记得自己写过什么东西，中途电脑故障，换了台设备，剩下的就寥寥无几了。 市面上的博客很多，CSDN，博客园，简书等等，可以直接在线编辑发布，文章也可以被百度抓取。但往往不太自由，会受到平台的各种限制，过多的广告也">
+<meta name="twitter:image" content="http://yoursite.com/2019/03/25/Hexo%20+%20Github%20Pages个人博客搭建/Hexo%20+%20Github%20Pages个人博客搭建/hexo.png">
 
 
 
-<link rel="alternative" href="/atom.xml" title="Almost" type="application/atom+xml">
+<link rel="alternative" href="/atom.xml" title="Hexo + Github Pages个人博客搭建" type="application/atom+xml">
 
 
 
@@ -91,7 +107,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.png" alt="Almost" height="28">
+                <img src="/images/logo.png" alt="Hexo + Github Pages个人博客搭建" height="28">
             
             </a>
         </div>
@@ -99,7 +115,7 @@
             
             <div class="navbar-start">
                 
-                <a class="navbar-item is-active" href="/">首页</a>
+                <a class="navbar-item" href="/">首页</a>
                 
                 <a class="navbar-item" href="/archives">归档</a>
                 
@@ -123,6 +139,10 @@
                     
                 
                 
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
                 
                 <a class="navbar-item search" title="搜索" href="javascript:;">
                     <i class="fas fa-search"></i>
@@ -136,13 +156,12 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-    <div class="card">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
     
     <div class="card-image">
-        <a href="/2019/03/25/Hexo + Github Pages个人博客搭建/" class="image is-7by1">
+        <span class="image is-7by1">
             <img class="thumbnail" src="/gallery/plant.jpg" alt="Hexo + Github Pages个人博客搭建">
-        </a>
+        </span>
     </div>
     
     <div class="card-content article ">
@@ -159,12 +178,17 @@
                 </span>
                 
                 
+                <span class="level-item has-text-grey" id="busuanzi_container_page_pv">
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv">0</span>次访问
+                </span>
+                
             </div>
         </div>
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/03/25/Hexo + Github Pages个人博客搭建/">Hexo + Github Pages个人博客搭建</a>
+                Hexo + Github Pages个人博客搭建
             
         </h1>
         <div class="content">
@@ -497,6 +521,11 @@
         
         
         
+        
+<div class="addthis_inline_share_toolbox"></div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c984a66515bc1fb"></script>
+
+        
     </div>
 </div>
 
@@ -506,7 +535,26 @@
 
 
 
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="valine-thread" class="content"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#valine-thread' ,
+        notify: false,
+        verify: false,
+        app_id: 'h0xKPG5p0PbRJPRC8gO9IRLe-gzGzoHsz',
+        app_key: 'TJ8dqu47DPyx5EyqDXzO5qNM',
+        placeholder: 'Say something...'
+    });
+</script>
 
+    </div>
+</div>
 </div>
                 
 
@@ -667,6 +715,121 @@
         <div class="column-right-shadow is-hidden-widescreen ">
         
             
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#Hexo简介">
+        <span class="has-mr-6">1</span>
+        <span>Hexo简介</span>
+        </a></li><li>
+        <a class="is-flex" href="#搭建环境准备">
+        <span class="has-mr-6">2</span>
+        <span>搭建环境准备</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#安装Git">
+        <span class="has-mr-6">2.1</span>
+        <span>安装Git</span>
+        </a></li><li>
+        <a class="is-flex" href="#安装Node-js">
+        <span class="has-mr-6">2.2</span>
+        <span>安装Node.js</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#博客本地搭建">
+        <span class="has-mr-6">3</span>
+        <span>博客本地搭建</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#安装Hexo">
+        <span class="has-mr-6">3.1</span>
+        <span>安装Hexo</span>
+        </a></li><li>
+        <a class="is-flex" href="#初始化博客">
+        <span class="has-mr-6">3.2</span>
+        <span>初始化博客</span>
+        </a></li><li>
+        <a class="is-flex" href="#博客目录介绍">
+        <span class="has-mr-6">3.3</span>
+        <span>博客目录介绍</span>
+        </a></li><li>
+        <a class="is-flex" href="#博客本地效果">
+        <span class="has-mr-6">3.4</span>
+        <span>博客本地效果</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#博客Github部署">
+        <span class="has-mr-6">4</span>
+        <span>博客Github部署</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#创建个人仓库">
+        <span class="has-mr-6">4.1</span>
+        <span>创建个人仓库</span>
+        </a></li><li>
+        <a class="is-flex" href="#配置SSH">
+        <span class="has-mr-6">4.2</span>
+        <span>配置SSH</span>
+        </a></li><li>
+        <a class="is-flex" href="#部署代码到Github">
+        <span class="has-mr-6">4.3</span>
+        <span>部署代码到Github</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#域名解析">
+        <span class="has-mr-6">5</span>
+        <span>域名解析</span>
+        </a></li><li>
+        <a class="is-flex" href="#Hexo基本配置">
+        <span class="has-mr-6">6</span>
+        <span>Hexo基本配置</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#网站">
+        <span class="has-mr-6">6.1</span>
+        <span>网站</span>
+        </a></li><li>
+        <a class="is-flex" href="#网址">
+        <span class="has-mr-6">6.2</span>
+        <span>网址</span>
+        </a></li><li>
+        <a class="is-flex" href="#分页">
+        <span class="has-mr-6">6.3</span>
+        <span>分页</span>
+        </a></li><li>
+        <a class="is-flex" href="#扩展">
+        <span class="has-mr-6">6.4</span>
+        <span>扩展</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#Hexo基本操作">
+        <span class="has-mr-6">7</span>
+        <span>Hexo基本操作</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#Front-matter">
+        <span class="has-mr-6">7.1</span>
+        <span>Front-matter</span>
+        </a></li><li>
+        <a class="is-flex" href="#布局（Layout）">
+        <span class="has-mr-6">7.2</span>
+        <span>布局（Layout）</span>
+        </a></li><li>
+        <a class="is-flex" href="#Page">
+        <span class="has-mr-6">7.3</span>
+        <span>Page</span>
+        </a></li><li>
+        <a class="is-flex" href="#Draft">
+        <span class="has-mr-6">7.4</span>
+        <span>Draft</span>
+        </a></li><li>
+        <a class="is-flex" href="#常用命令">
+        <span class="has-mr-6">7.5</span>
+        <span>常用命令</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#总结">
+        <span class="has-mr-6">8</span>
+        <span>总结</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
         
             
 <div class="card widget">
@@ -747,6 +910,121 @@
 <div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right ">
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#Hexo简介">
+        <span class="has-mr-6">1</span>
+        <span>Hexo简介</span>
+        </a></li><li>
+        <a class="is-flex" href="#搭建环境准备">
+        <span class="has-mr-6">2</span>
+        <span>搭建环境准备</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#安装Git">
+        <span class="has-mr-6">2.1</span>
+        <span>安装Git</span>
+        </a></li><li>
+        <a class="is-flex" href="#安装Node-js">
+        <span class="has-mr-6">2.2</span>
+        <span>安装Node.js</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#博客本地搭建">
+        <span class="has-mr-6">3</span>
+        <span>博客本地搭建</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#安装Hexo">
+        <span class="has-mr-6">3.1</span>
+        <span>安装Hexo</span>
+        </a></li><li>
+        <a class="is-flex" href="#初始化博客">
+        <span class="has-mr-6">3.2</span>
+        <span>初始化博客</span>
+        </a></li><li>
+        <a class="is-flex" href="#博客目录介绍">
+        <span class="has-mr-6">3.3</span>
+        <span>博客目录介绍</span>
+        </a></li><li>
+        <a class="is-flex" href="#博客本地效果">
+        <span class="has-mr-6">3.4</span>
+        <span>博客本地效果</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#博客Github部署">
+        <span class="has-mr-6">4</span>
+        <span>博客Github部署</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#创建个人仓库">
+        <span class="has-mr-6">4.1</span>
+        <span>创建个人仓库</span>
+        </a></li><li>
+        <a class="is-flex" href="#配置SSH">
+        <span class="has-mr-6">4.2</span>
+        <span>配置SSH</span>
+        </a></li><li>
+        <a class="is-flex" href="#部署代码到Github">
+        <span class="has-mr-6">4.3</span>
+        <span>部署代码到Github</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#域名解析">
+        <span class="has-mr-6">5</span>
+        <span>域名解析</span>
+        </a></li><li>
+        <a class="is-flex" href="#Hexo基本配置">
+        <span class="has-mr-6">6</span>
+        <span>Hexo基本配置</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#网站">
+        <span class="has-mr-6">6.1</span>
+        <span>网站</span>
+        </a></li><li>
+        <a class="is-flex" href="#网址">
+        <span class="has-mr-6">6.2</span>
+        <span>网址</span>
+        </a></li><li>
+        <a class="is-flex" href="#分页">
+        <span class="has-mr-6">6.3</span>
+        <span>分页</span>
+        </a></li><li>
+        <a class="is-flex" href="#扩展">
+        <span class="has-mr-6">6.4</span>
+        <span>扩展</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#Hexo基本操作">
+        <span class="has-mr-6">7</span>
+        <span>Hexo基本操作</span>
+        </a><ul class="menu-list"><li>
+        <a class="is-flex" href="#Front-matter">
+        <span class="has-mr-6">7.1</span>
+        <span>Front-matter</span>
+        </a></li><li>
+        <a class="is-flex" href="#布局（Layout）">
+        <span class="has-mr-6">7.2</span>
+        <span>布局（Layout）</span>
+        </a></li><li>
+        <a class="is-flex" href="#Page">
+        <span class="has-mr-6">7.3</span>
+        <span>Page</span>
+        </a></li><li>
+        <a class="is-flex" href="#Draft">
+        <span class="has-mr-6">7.4</span>
+        <span>Draft</span>
+        </a></li><li>
+        <a class="is-flex" href="#常用命令">
+        <span class="has-mr-6">7.5</span>
+        <span>常用命令</span>
+        </a></li></ul></li><li>
+        <a class="is-flex" href="#总结">
+        <span class="has-mr-6">8</span>
+        <span>总结</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
     
         
 <div class="card widget">
@@ -827,7 +1105,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.png" alt="Almost" height="28">
+                    <img src="/images/logo.png" alt="Hexo + Github Pages个人博客搭建" height="28">
                 
                 </a>
                 <p class="is-size-7">
