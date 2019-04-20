@@ -162,7 +162,7 @@
       appKey: leancloud.appkey,
       notify: false,
       verify: false,
-      avatar: "robohash",
+      avatar: "mp",
       placeholder: "Say Something...",
       path: getPsgID()
     });
