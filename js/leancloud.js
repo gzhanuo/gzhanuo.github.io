@@ -157,7 +157,6 @@
     updateCommentNum(0);
 
     new Valine({
-      av: AV,
       el: '#site-comment',
       appId: leancloud.appid,
       appKey: leancloud.appkey,
