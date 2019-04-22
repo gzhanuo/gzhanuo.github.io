@@ -20,7 +20,7 @@
 
   function _updateCommentNum() {
     const infoDOM = document.querySelector('#site-comment-info'),
-      url = getPsgID(),
+      url = window.location.pathname,
       _ts = 1000;
     let running = false;
 
