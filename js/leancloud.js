@@ -164,7 +164,7 @@
       verify: false,
       avatar: "mp",
       placeholder: "Say Something...",
-      path: getPsgID()
+      path: window.location.pathname
     });
 
     document.querySelector('.vsubmit.vbtn').addEventListener('click', (e) => {
