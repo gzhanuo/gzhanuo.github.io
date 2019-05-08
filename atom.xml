@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gzhanuo.github.io/"/>
-  <updated>2019-05-05T10:02:07.074Z</updated>
+  <updated>2019-05-08T08:10:06.592Z</updated>
   <id>http://gzhanuo.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo基础教程(三)：网站基本配置与主题设置</title>
+    <link href="http://gzhanuo.github.io/articles/1986384094/"/>
+    <id>http://gzhanuo.github.io/articles/1986384094/</id>
+    <published>2019-05-07T16:48:36.000Z</published>
+    <updated>2019-05-08T08:10:06.592Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;博客根目录下的&lt;code&gt;_config.yml&lt;/code&gt;，是整个Hexo的配置文件，可以在其中修改大部分的配置。&lt;/p&gt;&lt;p&gt;这里仅列出部分初期需要注意的内容，详细可参考&lt;a href=&quot;https://hexo.io/zh-cn/docs/configuration&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方配置文档&lt;/a&gt;。需要注意的是配置文件依靠缩进来确定元素间的从属关系，请使用空格缩进，并保证缩进正确，配置才可生效。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="理论 &amp; 教程" scheme="http://gzhanuo.github.io/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo基础教程(二)：个人域名绑定</title>
     <link href="http://gzhanuo.github.io/articles/1318032967/"/>
     <id>http://gzhanuo.github.io/articles/1318032967/</id>
     <published>2019-05-04T02:29:39.000Z</published>
-    <updated>2019-05-05T10:02:07.074Z</updated>
+    <updated>2019-05-07T03:18:08.569Z</updated>
     
     <summary type="html">
     
@@ -34,6 +56,8 @@
     
       <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
     
+      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
+    
   </entry>
   
   <entry>
@@ -41,7 +65,7 @@
     <link href="http://gzhanuo.github.io/articles/3433589275/"/>
     <id>http://gzhanuo.github.io/articles/3433589275/</id>
     <published>2019-05-04T01:36:16.000Z</published>
-    <updated>2019-05-04T01:54:08.601Z</updated>
+    <updated>2019-05-07T03:18:16.997Z</updated>
     
     <summary type="html">
     
@@ -53,6 +77,8 @@
     
     
       <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
+    
+      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
     
   </entry>
   
