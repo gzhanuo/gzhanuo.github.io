@@ -5,9 +5,9 @@
   <subtitle>Peace to the world</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://gzhanuo.github.io/"/>
+  <link href="https://indexmoon.com/"/>
   <updated>2019-05-08T08:44:20.019Z</updated>
-  <id>http://gzhanuo.github.io/</id>
+  <id>https://indexmoon.com/</id>
   
   <author>
     <name>Leon Kuo</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo基础教程(三)：网站基本配置与主题设置</title>
-    <link href="http://gzhanuo.github.io/articles/1986384094/"/>
-    <id>http://gzhanuo.github.io/articles/1986384094/</id>
+    <link href="https://indexmoon.com/articles/1986384094/"/>
+    <id>https://indexmoon.com/articles/1986384094/</id>
     <published>2019-05-07T16:48:36.000Z</published>
     <updated>2019-05-08T08:44:20.019Z</updated>
     
@@ -29,19 +29,19 @@
     
     </summary>
     
-      <category term="理论 &amp; 教程" scheme="http://gzhanuo.github.io/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
+      <category term="理论 &amp; 教程" scheme="https://indexmoon.com/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://indexmoon.com/tags/Hexo/"/>
     
-      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
+      <category term="Blog" scheme="https://indexmoon.com/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hexo基础教程(二)：个人域名绑定</title>
-    <link href="http://gzhanuo.github.io/articles/1318032967/"/>
-    <id>http://gzhanuo.github.io/articles/1318032967/</id>
+    <link href="https://indexmoon.com/articles/1318032967/"/>
+    <id>https://indexmoon.com/articles/1318032967/</id>
     <published>2019-05-04T02:29:39.000Z</published>
     <updated>2019-05-07T03:18:08.569Z</updated>
     
@@ -51,19 +51,19 @@
     
     </summary>
     
-      <category term="理论 &amp; 教程" scheme="http://gzhanuo.github.io/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
+      <category term="理论 &amp; 教程" scheme="https://indexmoon.com/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://indexmoon.com/tags/Hexo/"/>
     
-      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
+      <category term="Blog" scheme="https://indexmoon.com/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hexo基础教程(一)：博客搭建与部署</title>
-    <link href="http://gzhanuo.github.io/articles/3433589275/"/>
-    <id>http://gzhanuo.github.io/articles/3433589275/</id>
+    <link href="https://indexmoon.com/articles/3433589275/"/>
+    <id>https://indexmoon.com/articles/3433589275/</id>
     <published>2019-05-04T01:36:16.000Z</published>
     <updated>2019-05-07T03:18:16.997Z</updated>
     
@@ -73,12 +73,12 @@
     
     </summary>
     
-      <category term="理论 &amp; 教程" scheme="http://gzhanuo.github.io/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
+      <category term="理论 &amp; 教程" scheme="https://indexmoon.com/categories/%E7%90%86%E8%AE%BA-%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Hexo" scheme="http://gzhanuo.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://indexmoon.com/tags/Hexo/"/>
     
-      <category term="Blog" scheme="http://gzhanuo.github.io/tags/Blog/"/>
+      <category term="Blog" scheme="https://indexmoon.com/tags/Blog/"/>
     
   </entry>
   
