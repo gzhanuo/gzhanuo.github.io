@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://indexmoon.com/"/>
-  <updated>2019-05-10T02:18:31.089Z</updated>
+  <updated>2019-05-10T03:18:45.726Z</updated>
   <id>https://indexmoon.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://indexmoon.com/articles/1153730074/"/>
     <id>https://indexmoon.com/articles/1153730074/</id>
     <published>2019-05-08T08:50:11.000Z</published>
-    <updated>2019-05-10T02:18:31.089Z</updated>
+    <updated>2019-05-10T03:18:45.726Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;在参考本文时，你应该已经完成了博客的搭建，部署和基本配置。个人网站已经能够正常工作。本文主要包括Hexo中一些实用的功能，模块插件等，意在优化博客使用，文中主要涉及两个&lt;code&gt;_config.yml&lt;/code&gt;配置文件：站点配置文件（根目录下）和主题配置文件（主题文件夹下），没有特殊说明主题均以&lt;code&gt;Theme-AD&lt;/code&gt;为例。&lt;/p&gt;
+      &lt;p&gt;在参考本文时，你应该已经完成了博客的搭建，部署和基本配置。个人网站已经能够正常工作。&lt;/p&gt;&lt;p&gt;本文主要包括Hexo中一些实用的功能，模块插件等，意在优化博客使用，文中主要涉及两个&lt;code&gt;_config.yml&lt;/code&gt;配置文件：站点配置文件（根目录下）和主题配置文件（主题文件夹下），没有特殊说明主题均以&lt;code&gt;Theme-AD&lt;/code&gt;为例。&lt;/p&gt;
     
     </summary>
     
