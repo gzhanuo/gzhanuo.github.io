@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://indexmoon.com/"/>
-  <updated>2019-05-18T09:27:17.335Z</updated>
+  <updated>2019-05-28T02:37:04.747Z</updated>
   <id>https://indexmoon.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于1行核心JS代码实现简单的富文本编辑器</title>
+    <link href="https://indexmoon.com/articles/1452700591/"/>
+    <id>https://indexmoon.com/articles/1452700591/</id>
+    <published>2019-05-27T06:22:37.000Z</published>
+    <updated>2019-05-28T02:37:04.747Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前的一个博客项目中，有使用富文本编辑器的需求，考虑到已有很多功能完备且强大的编辑器，从零开始开发新的编辑器没有必要，且在有限时间内完成质量无法保证，便直接选用了&lt;a href=&quot;https://www.tiny.cloud/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TinyMCE&lt;/a&gt;供项目使用，类似的还有&lt;a href=&quot;https://quilljs.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Quill Rich Text Editor&lt;/a&gt;等。&lt;/p&gt;&lt;p&gt;近期的学习过程中又遇到类似的问题，于是整理了手头的资料，写了一个Demo上传至Github，可以在&lt;a href=&quot;https://indexmoon.com/steditor/index.html&quot;&gt;STEditor&lt;/a&gt;体验效果，具体详情可前往我的&lt;a href=&quot;https://github.com/gzhanuo/steditor&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github仓库&lt;/a&gt;查看。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://indexmoon.com/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="https://indexmoon.com/tags/JavaScript/"/>
+    
+      <category term="Font Awesome" scheme="https://indexmoon.com/tags/Font-Awesome/"/>
+    
+  </entry>
   
   <entry>
     <title>来自澳大利亚绘本艺术家陈志勇的 Cicada(蝉)</title>
