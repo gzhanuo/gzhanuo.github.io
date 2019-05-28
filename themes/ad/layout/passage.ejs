@@ -1,11 +1,11 @@
 <div class="passage">
   <div class="passage-meta">
     <span>
-      <i class="fa fa-calendar"></i><%- page.date.format("YYYY-MM-DD") %>
+      <i class="fa fa-calendar-check-o"></i><%- page.date.format("YYYY-MM-DD") %>
     </span>
     <% if(page.categories.length > 0) { %>
       <span>
-        | <a href="<%- url_for(page.categories.data[0].path) %>"><i class="fa fa-bookmark"></i><%- page.categories.data[0].name %></a>
+        | <a href="<%- url_for(page.categories.data[0].path) %>"><i class="fa fa-cube"></i><%- page.categories.data[0].name %></a>
       </span>
     <% } %>
     <% if(page.lock === true) { %>
@@ -14,7 +14,7 @@
       </span>
     <% } else { %>
       <span>
-        | <i class="fa fa-unlock-alt"></i>UNLOCK
+        | <i class="fa fa-unlock"></i>UNLOCK
       </span>
     <% } %>
   </div>
