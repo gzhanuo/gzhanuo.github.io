@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://indexmoon.com/"/>
-  <updated>2019-05-28T02:43:04.475Z</updated>
+  <updated>2019-06-12T16:30:47.941Z</updated>
   <id>https://indexmoon.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高效输入：Emmet使用手册</title>
+    <link href="https://indexmoon.com/articles/2184704117/"/>
+    <id>https://indexmoon.com/articles/2184704117/</id>
+    <published>2019-06-10T07:33:48.000Z</published>
+    <updated>2019-06-12T16:30:47.941Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在前端开发的过程中，很大一部分工作是写HTML，CSS代码。数量繁多的标签、属性、尖括号、标签闭合等，往往导致开发过程十分繁琐且效率不高。&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://emmet.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Emmet&lt;/a&gt;（前身为Zen Coding）是一套面向文本编辑器的插件，它允许通过内容辅助高速度的编写和编辑HTML、XML、XSL和其他结构化的代码格式，是一个能大幅提高前端开发效率的工具。它使用特定的语法来展开小段代码，类似CSS选择器，使其成为完整的HTML结构或CSS代码。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="网摘分享" scheme="https://indexmoon.com/categories/%E7%BD%91%E6%91%98%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="开发工具" scheme="https://indexmoon.com/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>基于1行核心JS代码实现简单的富文本编辑器</title>
